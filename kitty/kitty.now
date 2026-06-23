@@ -1,0 +1,16 @@
+# ~/.config/kitty/session.conf
+
+# tab pertama
+new_tab Main
+
+# layout utama
+layout splits
+
+# pane kiri besar
+launch --cwd=/home/yohanesokta nvim .
+
+# kanan atas
+launch --location=right --cwd=/home/yohanesokta zsh
+
+# kanan bawah
+launch --location=bottom --cwd=/home/yohanesokta zsh
