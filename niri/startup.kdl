@@ -1,0 +1,14 @@
+// Session startup and general behavior.
+// spawn-at-startup "python3" "/home/yohanesokta/Videos/wal/setwall.py" "now";
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+
+spawn-at-startup "nm-applet" "--indicator";
+spawn-at-startup "swaync"
+spawn-at-startup "qs" "-c" "noctalia-shell"
+hotkey-overlay {
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+animations {
+}

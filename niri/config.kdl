@@ -1,0 +1,14 @@
+// Modular niri config.
+// Edit the section files next to this one.
+
+include "input.kdl"
+include "output.kdl"
+include "layout.kdl"
+include "startup.kdl"
+include "window-rules.kdl"
+include "binds.kdl"
+
+cursor {
+  xcursor-theme "breeze_cursors"
+  xcursor-size 30
+}

@@ -1,0 +1,43 @@
+// Layout and window appearance.
+layout {
+    gaps 10
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width { proportion 0.5; }
+
+    focus-ring {
+        on
+        width 2
+        active-gradient from="#00ffcc" to="#0066ff" angle=45
+        inactive-color "#505050"
+    }
+
+    border {
+        on
+        width 0
+        urgent-color "#9b0000"
+        active-color "#00000000"
+        inactive-color "#00000000"
+    }
+
+    shadow {
+        softness 20
+        spread 6
+        offset x=0 y=4
+        color "#ffffff55"
+    }
+
+    struts {
+    }
+}
+
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}
